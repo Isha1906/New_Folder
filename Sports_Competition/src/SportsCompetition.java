@@ -23,7 +23,7 @@ public class SportsCompetition {                 //class_name-"SportsCompetition
 	{
 		System.out.print("--You Are in Ruby Group--");                                            //Assigning group According to there roll_number
 	}
-	else if(roll_no%4==4)     //Checking whether roll_number belongs to(4, 8, 12, 16, 20, 24,...)
+	else if(roll_no%4==0)     //Checking whether roll_number belongs to(4, 8, 12, 16, 20, 24,...)
 	{
 		System.out.print("--You Are in Emerald Group--");                                             //Assigning group According to there roll_number
 	}

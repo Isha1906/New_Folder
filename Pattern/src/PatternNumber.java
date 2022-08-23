@@ -3,7 +3,7 @@ public class PatternNumber {           //class name NumberPattern
 
 	public static void main(String[] args) {    //main() class
 		
-		int rows=4;                    //Initializing and Declaring 5 rows in pattern
+		int rows=6;                    //Initializing and Declaring 5 rows in pattern
 		
 		for(int i=1;i<=rows;i++)        //Outer loop
 		{
@@ -18,6 +18,4 @@ public class PatternNumber {           //class name NumberPattern
 			System.out.println();            //taking a line break
 		}
 
-	}
-
-}
+	}}
