@@ -7,22 +7,20 @@ public class SecondLargest {                //class name SecondLargest
 	public static void main(String[] args) {      //main() class
 	
 		//Initializing and declaring array of type Int with name "number"
-		int[] number= {25,14,36,56,15,77,18,29,49};
-	
+		int[][] number= {{1,1},{2,2},{3,3}};
+	int product=1;
 		Arrays.sort(number);
 		
 		int sec_max = 0;
 		
         for(int i=0;i<number.length;i++)                  //Using for loop to access array elements
         {
-        	if(number[i]!=number[number.length-1])                
+        	for(int j=0;j>number.length;j++)
         	{
-        		sec_max=number[i];                          //assigning matched array_elemnet value to sec_max
-        		
-        	 }
+        		product=product*number[i][j];     	}
         }	
         
-       System.out.println(sec_max+" is second largest number in the array");	  //Printing the Second largest number from array
+       System.out.println(product+" is second largest number in the array");	  //Printing the Second largest number from array
 	}
 
 }              //END-OF-PROGRAM
